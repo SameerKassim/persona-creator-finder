@@ -1,0 +1,37 @@
+# ---------------------------------------------------------------
+# Scraped lead data. These exports contain creator names, emails,
+# follower counts and view histories: other people's personal data.
+# They must never be committed to a public or shared repository.
+# ---------------------------------------------------------------
+*.csv
+*.xlsx
+*.xls
+exports/
+leads/
+data/
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+credentials.json
+config.local.*
+
+# Node / tooling (not used today, guarded in case a build step is added)
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
